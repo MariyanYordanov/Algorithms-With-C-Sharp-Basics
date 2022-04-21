@@ -7,8 +7,7 @@ namespace SearchInOrderArray
     {
         static void Main(string[] args)
         {
-
-            int[] integerElements = global::System.Console.ReadLine()
+            int[] integerElements = Console.ReadLine()
                 .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
@@ -24,6 +23,7 @@ namespace SearchInOrderArray
             }
 
             Console.WriteLine($"{number} Not exists in the List");
+            // O(n) = 11 + 8*n
         }
     }
 }
