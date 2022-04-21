@@ -1,4 +1,5 @@
-						Determine the complexity of the algorithm
+						Determine the Complexity of the Algorithm
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	1.Does a number belong to an array
 
@@ -21,13 +22,23 @@ Write a program that reads from the console an ascending sequence of integers on
 	
 Determine the complexity (maximum number of steps) of the algorithm:
 Write a program that reads from the console a sequence of numbers (on a single line, separated by a space). Calculate and print the sum and average of the elements of the sequence. Saves the sequence in List<int>. Round the average to the second digit after the decimal separator.
-Input 	Output
-4 5 6 	Sum=15; Average=5.00
-1 1 	Sum=2; Average=1.00
-	Sum=0; Average=0.00
-10 	Sum=10; Average=10.00
-2 2 1 	Sum=5; Average=1.67
+	
+	Input 		
+	4 5 6 		
+	1 1 		
+		
+	10 		
+	2 2 1 		
 
+	Output
+	Sum=15; Average=5.00
+	Sum=2; Average=1.00
+	Sum=0; Average=0.00
+	Sum=10; Average=10.00
+	Sum=5; Average=1.67
+	
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
 Ministry of Education and Science (MES)
 This course (presentations, examples, tasks, exercises, etc.) has been developed for the needs of the National Programme "Training for IT Career" of the Ministry of Education and Science for training in the profession "Application Programmer".
 
