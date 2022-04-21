@@ -23,6 +23,7 @@ namespace BelongToArray
                 }
             }
 
+            // O(n) = 9 + 8*n
             Console.WriteLine($"{elementToFind} Not exists in the List");
         }
     }

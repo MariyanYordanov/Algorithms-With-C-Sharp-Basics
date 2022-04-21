@@ -35,6 +35,7 @@ namespace MethodInsert
                 newArray[i] = integerElements[i - 1];
             }
 
+            // O(n) = 12 + 12*n + 6*n
             Console.WriteLine($"New array -> {string.Join(", ", newArray)}");
             Console.WriteLine($"Old array -> {string.Join(", ", integerElements)}");
         }
